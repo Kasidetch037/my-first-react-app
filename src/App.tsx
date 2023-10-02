@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Greeting fname="tar" lname="kk" />
-      <Greeting fname="tam" lname="ip" />
-      <Greeting fname="tim" lname="ip" />
+      <Greeting fname="tar" lname="kk" isLogin={true} />
+      <Greeting fname="tam" lname="ip" isLogin={false} />
+      <Greeting fname="tim" lname="ip" isLogin={false} />
     </div>
   )
 }
