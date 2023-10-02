@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Greeting />
+      <Greeting fname="tar" lname="kk" />
+      <Greeting fname="tam" lname="ip" />
+      <Greeting fname="tim" lname="ip" />
     </div>
   )
 }
