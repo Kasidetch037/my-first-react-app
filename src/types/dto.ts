@@ -5,3 +5,4 @@ export interface PostDTO {
   body: string
 }
 // export default interface
+// import { PostDTO } from '../types/dto'
